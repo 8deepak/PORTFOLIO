@@ -2,30 +2,33 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github } from 'lucide-react';
-
+import image from '../utils/ecommerce-eduma.png';
+import photo from '../utils/foodiesphoto.png';
 const projects = [
   {
-    title: 'Project 1',
-    description: 'A modern web application built with React and TypeScript',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
-    tech: ['React', 'TypeScript', 'Tailwind CSS'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    details: 'This project involves creating a web app with advanced TypeScript features and reusable components.',
+    title: 'Ecommerce - Eduma',
+    description: 'Developed a responsive e-commerce website using HTML, CSS, Bootstrap, and JavaScript. The site features a user-friendly design with modern UI elements, seamless navigation, and interactive components for enhanced user engagement. ',
+    image: image,
+    tech: ['HTML', 'JavaScript', 'Bootstrap','CSS'],
+    github: 'https://github.com/8deepak/eduma-website.git',
+    live: 'https://8deepak.github.io/eduma-website/',
+    details: 'This demo site showcases the ecclommerce capabilities, illustrating how educational institutions or online course providers can integrate an online store into their platforms.',
+    Features:'Product Listings, Shopping Cart Functionality, Responsive Design, ',
+
   },
   {
-    title: 'Project 2',
-    description: 'Full-stack e-commerce platform with real-time features',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
-    tech: ['Next.js', 'Node.js', 'MongoDB'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+    title: 'Foodies Website',
+    description: 'The FOODIES website is a food and restaurant-themed website built using HTML, CSS, and Bootstrap. It offers a responsive design with user-friendly navigation, displaying content such as restaurant menus, food items, and reviews. The website is designed to showcase a modern, professional look while focusing on food-related businesses. You can view more details about the project',
+    image: photo,
+    tech: ['HTLM5', 'CSS', 'Bootstrap'],
+    github: 'https://github.com/8deepak/FOODIES.git',
+    live: 'https://8deepak.github.io/FOODIES/',
     details: 'A scalable e-commerce solution with real-time updates and an optimized backend.',
   },
   {
     title: 'Project 3',
     description: 'Mobile-first social media dashboard',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
+    image: image,
     tech: ['Vue.js', 'Firebase', 'Sass'],
     github: 'https://github.com',
     live: 'https://example.com',
