@@ -21,21 +21,6 @@ const projects = [
              'Data persistence via localStorage, ensuring offline access and efficient storage.',
   },
   {
-    title: 'Employee Management System',
-    description: 'Developed a fully functional web-based Employee Management System using React.js, HTML, and Tailwind CSS. Designed an intuitive UI for seamless user interaction and utilized localStorage for efficient data handling.'+ ' If you can go to the web site first you shuold enter '+'for  ADMIN EMAIL - admin@me.com ,PASSWORD - 123 '+' FOR EMPLOYEE EMAIL - employee5@example.com'+'PASSWORD - 123',
-    Features: 'Product Listings, Shopping Cart Functionality, Responsive Design.' ,
-    image: photo,
-    tech: ['HTML5', 'JavaScript', 'ReactJs', 'TailwindCSS'],
-    github: 'https://github.com/8deepak/EMS.git',
-    live: 'https://8deepak.github.io/EMS/',
-    details: 'Key features include: ' +
-             'Interactive UI enabling task assignment and workflow management. ' +
-             'Task status tracking with "Accepted" and "Completed" options for employees. ' +
-             'Scalable solution with reusable components and performance optimization. ' +
-             'Data persistence via localStorage, ensuring offline access and efficient storage.',
-
-  },
-  {
     title: 'Ecommerce - Eduma',
     description: 'Developed a responsive e-commerce website using HTML, CSS, Bootstrap, and JavaScript. The site features a user-friendly design with modern UI elements, seamless navigation, and interactive components for enhanced user engagement. ',
     image: image,

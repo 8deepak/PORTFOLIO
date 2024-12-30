@@ -16,7 +16,7 @@ const skills = [
   {
     category: 'DevOps',
     icon: Settings,
-    items: ['AWS cloud Practitioner']
+    items: ['AWS cloud Practitioner', 'Git','Github']
   },
   {
     category: 'Languages',
