@@ -6,17 +6,17 @@ const skills = [
   {
     category: 'Frontend',
     icon: Layout,
-    items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js','HTML5','CSS','JavaScript'],
+    items: ['React', 'Tailwind CSS', 'Bootstrap','HTML5','CSS','JavaScript'],
   },
   {
     category: 'Backend',
     icon: Database,
-    items: ['Node.js', 'Python', 'SQL',],
+    items: ['', 'Python', 'SQL',],
   },
   {
     category: 'DevOps',
     icon: Settings,
-    items: ['AWS'],
+    items: ['AWS cloud Practitioner']
   },
   {
     category: 'Languages',
