@@ -11,7 +11,7 @@ const skills = [
   {
     category: 'Backend',
     icon: Database,
-    items: [, 'Python', 'SQL',],
+    items: ['Python', 'SQL',],
   },
   {
     category: 'DevOps',
