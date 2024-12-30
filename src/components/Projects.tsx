@@ -5,7 +5,7 @@ import { ExternalLink, Github } from 'lucide-react';
 import image from '../utils/ecommerce-eduma.png';
 import photo from '../utils/foodiesphoto.png';
 const projects = [
-  {
+  { 
     title: 'Employee Management System',
     description: 'Developed a fully functional web-based Employee Management System using React.js, HTML, and Tailwind CSS. Designed an intuitive UI for seamless user interaction and utilized localStorage for efficient data handling.'+ ' If you can go to the web site first you shuold enter '+'for  ADMIN EMAIL - admin@me.com ,PASSWORD - 123 '+' FOR EMPLOYEE EMAIL - employee5@example.com'+'PASSWORD - 123',
     Features: 'Product Listings, Shopping Cart Functionality, Responsive Design.' ,
