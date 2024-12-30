@@ -6,6 +6,21 @@ import image from '../utils/ecommerce-eduma.png';
 import photo from '../utils/foodiesphoto.png';
 const projects = [
   {
+    title: 'Employee Management System',
+    description: 'Developed a fully functional web-based Employee Management System using React.js, HTML, and Tailwind CSS. Designed an intuitive UI for seamless user interaction and utilized localStorage for efficient data handling.'+ ' If you can go to the web site first you shuold enter '+'for  ADMIN EMAIL - admin@me.com ,PASSWORD - 123 '+' FOR EMPLOYEE EMAIL - employee5@example.com'+'PASSWORD - 123',
+    Features: 'Product Listings, Shopping Cart Functionality, Responsive Design.' ,
+    image: ems,
+    tech: ['HTML5', 'JavaScript', 'ReactJs', 'TailwindCSS'],
+    github: 'https://github.com/8deepak/EMS.git',
+    live: 'https://8deepak.github.io/EMS/',
+    details: 'Key features include: ' +
+             'Interactive UI enabling task assignment and workflow management. ' +
+             'Task status tracking with "Accepted" and "Completed" options for employees. ' +
+             'Scalable solution with reusable components and performance optimization. ' +
+             'Data persistence via localStorage, ensuring offline access and efficient storage.',
+
+  },
+  {
     title: 'Ecommerce - Eduma',
     description: 'Developed a responsive e-commerce website using HTML, CSS, Bootstrap, and JavaScript. The site features a user-friendly design with modern UI elements, seamless navigation, and interactive components for enhanced user engagement. ',
     image: image,
@@ -15,24 +30,16 @@ const projects = [
     details: 'This demo site showcases the ecclommerce capabilities, illustrating how educational institutions or online course providers can integrate an online store into their platforms.',
     Features:'Product Listings, Shopping Cart Functionality, Responsive Design, ',
 
+    
   },
   {
     title: 'Foodies Website',
-    description: 'The FOODIES website is a food and restaurant-themed website built using HTML, CSS, and Bootstrap. It offers a responsive design with user-friendly navigation, displaying content such as restaurant menus, food items, and reviews. The website is designed to showcase a modern, professional look while focusing on food-related businesses. You can view more details about the project',
+    description: 'The FOODIES website is a food and restaurant-themed website built using HTML, CSS, and Bootstrap. It offers a responsive design with user-friendly navigation, displaying content such as restaurant menus, food items, and reviews.You can view more details about the project ',
     image: photo,
     tech: ['HTLM5', 'CSS', 'Bootstrap'],
     github: 'https://github.com/8deepak/FOODIES.git',
     live: 'https://8deepak.github.io/FOODIES/',
     details: 'A scalable e-commerce solution with real-time updates and an optimized backend.',
-  },
-  {
-    title: 'Project 3',
-    description: 'Mobile-first social media dashboard',
-    image: image,
-    tech: ['Vue.js', 'Firebase', 'Sass'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    details: 'Designed for mobile users, this dashboard provides real-time analytics for social media platforms.',
   }
 ];
 
